@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 function Dashboard() {
-  const components = ["button"];
+  const components = ["button", "treeview"];
   return (
     <>
       <div>Dashboard</div>
